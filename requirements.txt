@@ -7,5 +7,5 @@ keras
 seaborn
 IPython
 plotly
-protobuf
-h5py
+
+

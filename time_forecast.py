@@ -278,7 +278,7 @@ import tensorflow as tf
 tf.random.set_seed(1234)
 modell = Sequential()
 modell.add(Bidirectional(LSTM(100, activation='relu', input_shape=(100,1)))) #elu
-modell.add(Bidirectional(LSTM(50, dropout=0.5)))
+#modell.add(Bidirectional(LSTM(50, dropout=0.5)))
 
 #modell.add(Bidirectional(LSTM(100, dropout=0.5)))
 #modell.add(BatchNormalization(momentum=0.6))
